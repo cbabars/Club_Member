@@ -1,0 +1,13 @@
+<!-- src/app/components/business-directory/business-directory.component.html -->
+ <h1>Sagar Babar</h1>
+<div class="business-directory">
+    <div *ngFor="let business of businesses" class="business-card">
+      <h3>{{ business['Business Name'] }}</h3>
+      <p><strong>Owner:</strong> {{ business['Business Owner'] }}</p>
+      <p><strong>Category:</strong> {{ business['Business Category'] }}</p>
+      <p><strong>Address:</strong> {{ business['Address'] }}</p>
+      <p><strong>Social Media:</strong> <a [href]="business['Social Media URL']">{{ business['Social Media URL'] }}</a></p>
+      <p><strong>Contact:</strong> <a href="tel:{{ business['Mobile Number'] }}">{{ business['Mobile Number'] }}</a></p>
+    </div>
+  </div>
+  
