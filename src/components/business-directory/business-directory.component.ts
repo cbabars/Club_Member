@@ -1,6 +1,6 @@
 // src/app/components/business-directory/business-directory.component.ts
 import { Component, OnInit } from '@angular/core';
-import { ExcelDataService } from '../excel-data.service';
+import { ExcelDataService } from 'src/services/excel-data.service';
 
 @Component({
   selector: 'app-business-directory',

@@ -1,0 +1,18 @@
+form {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form div {
+    margin-bottom: 15px;
+}
+form div label {
+    display: block;
+    margin-bottom: 5px;
+}
+form div input,
+form div textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
